@@ -27,6 +27,7 @@
     <![endif]-->
 
 	<?php echo $content?>
+	<?php echo Yii::app()->getModule('user')->loginUrl ?>
 </div>
 
 </body>
