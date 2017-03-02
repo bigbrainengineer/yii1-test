@@ -18,6 +18,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/rbac.css" />
 </head>
 
 <body>
@@ -27,7 +28,6 @@
     <![endif]-->
 
 	<?php echo $content?>
-	<?php echo Yii::app()->getModule('user')->loginUrl ?>
 </div>
 
 </body>
